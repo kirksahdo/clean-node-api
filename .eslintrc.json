@@ -3,7 +3,9 @@
     "parserOptions": {
         "project": "./tsconfig.json"
     },
-    "rules": {
-        "camelcase": 0
+    "resolutions": {
+        "@typescript-eslint/eslint-plugin": "2.23.0",
+        "@typescript-eslint/parser": "2.23.0",
+        "@typescript-eslint/typescript-estree": "2.23.0"
     }
 }
